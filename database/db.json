@@ -1,0 +1,28 @@
+{
+  "products": [
+    {
+      "name": "Joel",
+      "price": "519,00",
+      "image": "https://m.media-amazon.com/images/I/51dZlh3pRNL._AC_UL320_.jpg",
+      "id": 1
+    },
+    {
+      "name": "Maki",
+      "price": "200,00",
+      "image": "https://m.media-amazon.com/images/I/5109PYZGTxL._AC_UL320_.jpg",
+      "id": 2
+    },
+    {
+      "name": "Gerald",
+      "price": "614,00",
+      "image": "https://m.media-amazon.com/images/I/61DIu2lUwtL._AC_UL320_.jpg",
+      "id": 3
+    },
+    {
+      "name": "Miles Morales",
+      "price": "219,90",
+      "image": "https://m.media-amazon.com/images/I/61pcaUheCFL._AC_UL320_.jpg",
+      "id": 4
+    }
+  ]
+}

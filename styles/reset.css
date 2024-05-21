@@ -1,0 +1,52 @@
+:root {
+    --cor-azul-escuro: #03318C;
+    --cor-azul: #5300C8;
+    --cor-roxo: #9303a6;
+    --cor-roxo-claro: #9747ff;
+    
+    --cor-de-fundo: #f5f5f5;
+    --cor-de-texto: #000000;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: "Press Start 2P", monospace;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+ol,
+ul,
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: var(--cor-de-fundo);
+}
+
+button {
+    all: unset;
+    border: 2px solid var(--cor-azul-escuro);
+}
+
+.btn__primario {
+    background-color: var(--cor-azul-escuro);
+    color: white;
+}
+
+.bnt__primario:hover {
+    background-color: var(--cor-azul-escuro);
+    border-color: var(--cor-azul-escuro);
+}
+
+.bnt__secundario {
+    background-color: var(--cor-de-fundo);
+    color: var(--cor-azul-escuro)
+}
+
+.bnt__secundario:hover {
+    background-color: var(--cor-azul);
+}

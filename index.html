@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <style> @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');</style>
+    <style> @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');</style>
+    
+    <title>AluraGeek</title>
+</head>
+<body>
+        <header class="header">
+            <img src="assets/monster.gif" alt="AluraGeek" class="logo"/>
+            <h3>AluraGeek</h3>
+        </header>
+        <main class="main-container">
+            <section>
+                <h1>Meus produtos:</h1>
+                <div data-product class="products-container">
+                </div>
+            </section>
+
+            
+            <section class="main-form">
+                <h1>Adicionar produto:</h1>
+                <form class="form-container" data-form>
+                    <input data-name placeholder="Nome..." type="text" class="form-item" id="form-nome" minlength="3" required> 
+                    <span class="error-message"></span>
+                    <input data-price placeholder="Preço..." type="text" class="form-item" id="form-price" maxlength="7" pattern="\d{1}?.?\d{1,3}?.?{1,3},.\d{2}" required>
+                    <span class="error-message"></span>
+                    <input data-image placeholder="Imagem..." type="text" class="form-item" id="form-image" minlength="3" required>
+                    <span class="error-message"></span>
+                    
+                    <div class="button-container">
+                        <button  class="button-submit" id="button">
+                        Enviar...</button>
+                        <button type="reset" class="button-clear" id="button">
+                        Limpar...</button>
+                    </div>
+                </form>
+            </section>
+        </main>
+        <footer class="footer-container">
+            <img src="assets/monster.gif" alt="AluraGeek" class="logo">
+            <h3 class="footer-title">AluraGeek</h3>
+            <a href="https://www.linkedin.com/in/lucas-alves-a38419242/">Desenvolvido por: Lucas Alves</a>
+        </footer>
+        <script type="module" src="js/main.js"></script>
+        <script type="module" src="js/productService.js"></script>
+</body>
+</html>
